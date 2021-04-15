@@ -63,8 +63,11 @@ def main(prog, argv):
     #    - description
     #    - mgmt_only
     #    - mode
-    #    - untagged_vlan
-    #    - tagged_vlans
+    #    - untagged_vlan  (database ID, not VLAN ID)
+    #    - tagged_vlans   (database IDs, not VLAN IDs!)
+    #
+    #  See also: https://netbox.example/api/docs/
+    #            -> (POST/...) /virtualization/interfaces/
     #
     # Attributes other than <name> require
     # somehow structured input (example code for CSV below).
