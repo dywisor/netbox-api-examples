@@ -128,7 +128,6 @@ def main_create_interface(
 
     # lookup may fail..
     if dev_info is None:
-        # XXX: proper exception
         sys.stderr.write(f"machine not found: {hostname}\n")
         return False
     # -- end if device not found
