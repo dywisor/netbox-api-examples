@@ -1,0 +1,3 @@
+name,description,mac_address
+em0,wan,fa:02:03:04:05:06
+em1,lan,fa:02:03:04:05:16
